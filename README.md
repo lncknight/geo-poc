@@ -3,7 +3,7 @@ Research geocoding services fit for use case
 
 # Acceptance criteria
 - precise result
-  - IP: down to regions (i.e. Tseung Kwan O, HK)
+  - IP: down to country (i.e. HK)
   - Latlng: down to regions (i.e. Tseung Kwan O, HK)
 - cost effeciency
 

@@ -1,0 +1,86 @@
+[
+  {
+    "ip": "202.65.212.123",
+    "country_code": "HK",
+    "regions": [
+      "中西區"
+    ]
+  },
+  {
+    "ip": "202.65.212.123",
+    "country_code": "HK",
+    "regions": [
+      "東區"
+    ]
+  },
+  {
+    "ip": "202.65.212.123",
+    "country_code": "HK",
+    "regions": [
+      "南區"
+    ]
+  },
+  {
+    "ip": "202.65.212.123",
+    "country_code": "HK",
+    "regions": [
+      "灣仔區"
+    ]
+  },
+  {
+    "ip": "194.5.52.30",
+    "country_code": "TW",
+    "regions": [
+      ""
+    ]
+  },
+  {
+    "ip": "173.239.198.96",
+    "country_code": "US",
+    "regions": [
+      "SF"
+    ]
+  },
+  {
+    "ip": "104.37.31.199",
+    "country_code": "US",
+    "regions": [
+      "NY"
+    ]
+  },
+  {
+    "ip": "193.36.225.14",
+    "country_code": "US",
+    "regions": [
+      "LA"
+    ]
+  },
+  {
+    "ip": "185.192.69.179",
+    "country_code": "GB",
+    "regions": [
+      "UK"
+    ]
+  },
+  {
+    "ip": "198.144.145.21",
+    "country_code": "CA",
+    "regions": [
+      "Canada"
+    ]
+  },
+  {
+    "ip": "45.8.68.60",
+    "country_code": "JP",
+    "regions": [
+      "Japan"
+    ]
+  },
+  {
+    "ip": "185.92.24.3",
+    "country_code": "KR",
+    "regions": [
+      "Korea"
+    ]
+  }
+]

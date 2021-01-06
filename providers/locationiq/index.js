@@ -2,7 +2,7 @@ const providerName = 'locationiq'
 
 const axios = require('axios')
 const fs = require('fs');
-const { map, get, first, chain, toUpper } = require('lodash');
+const { map, get, first, chain, toUpper, trim } = require('lodash');
 
 var countries = require("i18n-iso-countries");
 
@@ -22,7 +22,8 @@ const _parseResponse = async data => {
       'address.country',
     ])
       .map(key => {
-        return get(data, key)
+        return trim(get(data, key, "").replace("County", ""))
+        // return get(data, key)
       })
       .filter()
       .value(),

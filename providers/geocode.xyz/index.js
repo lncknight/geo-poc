@@ -1,7 +1,7 @@
 const axios = require('axios')
 const providerName = 'geocode.xyz'
 const fs = require('fs');
-const { map, get, first, chain } = require('lodash');
+const { map, get, first, chain, trim } = require('lodash');
 
 const _parseResponse = async data => {
   return {
@@ -9,11 +9,15 @@ const _parseResponse = async data => {
     regions: chain([
       'osmtags.name',
       'osmtags.name_zh',
+      'adminareas.admin6.name_en',
       'adminareas.admin6.name',
       'adminareas.admin6.name_zh',
+      'adminareas.admin5.name_en',
+      'adminareas.admin5.name',
+      'adminareas.admin5.name_zh',
     ])
       .map(key => {
-        return get(data, key)
+        return trim(get(data, key, "").replace("County", ""))
       })
       .filter()
       .value(),

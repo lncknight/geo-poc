@@ -1,34 +1,24 @@
 [
   {
     "latlng": [
-      22.27979,
-      114.22977
+      43.651070,
+      -79.347015
     ],
-    "country_code": "HK",
+    "country_code": "CA",
     "regions": [
-      "Eastern District"
+      "Toronto",
+      ""
     ]
   },
   {
     "latlng": [
-      22.27994078,
-      114.164393500
+      55.3617609,
+      -3.4433238
     ],
-    "country_code": "HK",
+    "country_code": "GB",
     "regions": [
-      "中西區",
-      "Central and Western District"
-    ]
-  },
-  {
-    "latlng": [
-      22.2886,
-      114.1942
-    ],
-    "country_code": "HK",
-    "regions": [
-      "東區",
-      "Eastern District"
+      "Moffat",
+      ""
     ]
   },
   {
@@ -44,6 +34,17 @@
   },
   {
     "latlng": [
+      22.27994078,
+      114.164393500
+    ],
+    "country_code": "HK",
+    "regions": [
+      "中西區",
+      "Central and Western District"
+    ]
+  },
+  {
+    "latlng": [
       22.279909,
       114.173729
     ],
@@ -55,133 +56,13 @@
   },
   {
     "latlng": [
-      22.32888,
-      114.1892
+      22.2886,
+      114.1942
     ],
     "country_code": "HK",
     "regions": [
-      "九龍城區",
-      "Kowloon City District"
-    ]
-  },
-  {
-    "latlng": [
-      22.3233,
-      114.2154
-    ],
-    "country_code": "HK",
-    "regions": [
-      "觀塘區",
-      "Kwun Tong District"
-    ]
-  },
-  {
-    "latlng": [
-      22.33023,
-      114.15945
-    ],
-    "country_code": "HK",
-    "regions": [
-      "深水埗區",
-      "Sham Shui Po District"
-    ]
-  },
-  {
-    "latlng": [
-      22.33066,
-      114.192017
-    ],
-    "country_code": "HK",
-    "regions": [
-      "黃大仙區"
-    ]
-  },
-  {
-    "latlng": [
-      22.302219,
-      114.174637
-    ],
-    "country_code": "HK",
-    "regions": [
-      "油尖旺區",
-      "Yau Tsim Mong District"
-    ]
-  },
-  {
-    "latlng": [
-      22.271574,
-      113.996823
-    ],
-    "country_code": "HK",
-    "regions": [
-      "離島區",
-      "Islands District"
-    ]
-  },
-  {
-    "latlng": [
-      22.35288,
-      114.10004
-    ],
-    "country_code": "HK",
-    "regions": [
-      "葵青區",
-       "Kwai Chung"
-    ]
-  },
-  {
-    "latlng": [
-      22.501257,
-      114.127945
-    ],
-    "country_code": "HK",
-    "regions": [
-      "北區",
-      "North District"
-    ]
-  },
-  {
-    "latlng": [
-      22.38333,
-      114.26667
-    ],
-    "country_code": "HK",
-    "regions": [
-      "西貢區",
-      "Sai Kung District"
-    ]
-  },
-  {
-    "latlng": [
-      22.38333,
-      114.18333
-    ],
-    "country_code": "HK",
-    "regions": [
-      "沙田區",
-      "Sha Tin District"
-    ]
-  },
-  {
-    "latlng": [
-      22.45007,
-      114.16877
-    ],
-    "country_code": "HK",
-    "regions": [
-      "大埔區",
-      "Tai Po District"
-    ]
-  },
-  {
-    "latlng": [
-      22.3699,
-      114.1144
-    ],
-    "country_code": "HK",
-    "regions": [
-      "荃灣區",
-      "Tsuen Wan District"
+      "東區",
+      "Eastern District"
     ]
   },
   {
@@ -208,87 +89,134 @@
   },
   {
     "latlng": [
-      23.553118,
-      121.0211024
+      22.3699,
+      114.1144
     ],
-    "country_code": "TW",
+    "country_code": "HK",
     "regions": [
-      "Taiwan"
+      "荃灣區",
+      "Tsuen Wan District"
     ]
   },
   {
     "latlng": [
-      22.1634178,
-      113.5629425
+      22.32888,
+      114.1892
     ],
-    "country_code": "MO",
+    "country_code": "HK",
     "regions": [
-
+      "九龍城區",
+      "Kowloon City District"
     ]
   },
   {
     "latlng": [
-      37.809326,
-      -122.409981
+      22.271574,
+      113.996823
     ],
-    "country_code": "US",
+    "country_code": "HK",
     "regions": [
-      "SF", 
-      "San Francisco County",
-      "San Francisco"
+      "離島區",
+      "Islands District"
     ]
   },
   {
     "latlng": [
-      40.712772,
-      -74.006058
+      22.35288,
+      114.10004
     ],
-    "country_code": "US",
+    "country_code": "HK",
     "regions": [
-      "NY", "New York",
-      "New York County"
+      "葵青區",
+      "Kwai Tsing District"
     ]
   },
   {
     "latlng": [
-      33.942791,
-      -118.410042
+      22.501257,
+      114.127945
     ],
-    "country_code": "US",
+    "country_code": "HK",
     "regions": [
-      "LA", "Los Angeles",
-      "Los Angeles County"
+      "North District",
+      "Northern District"
     ]
   },
   {
     "latlng": [
-      55.3617609,
-      -3.4433238
+      22.33023,
+      114.15945
     ],
-    "country_code": "GB",
+    "country_code": "HK",
     "regions": [
-      "UK",
-      "United Kingdom"
+      "深水埗區",
+      "Sham Shui Po District"
     ]
   },
   {
     "latlng": [
-      43.651070,
-      -79.347015
+      22.45007,
+      114.16877
     ],
-    "country_code": "CA",
+    "country_code": "HK",
     "regions": [
-      "Canada"
+      "大埔區",
+      "Tai Po District"
     ]
   },
   {
     "latlng": [
-      37.4900318,
-      136.4664008
+      22.302219,
+      114.174637
     ],
-    "country_code": "JP",
+    "country_code": "HK",
     "regions": [
-      "Japan"
+      "油尖旺區",
+      "Yau Tsim Mong District"
+    ]
+  },
+  {
+    "latlng": [
+      22.38333,
+      114.18333
+    ],
+    "country_code": "HK",
+    "regions": [
+      "沙田區",
+      "Sha Tin District"
+    ]
+  },
+  {
+    "latlng": [
+      22.33066,
+      114.192017
+    ],
+    "country_code": "HK",
+    "regions": [
+      "黃大仙區",
+      "Wong Tai Sin District"
+    ]
+  },
+  {
+    "latlng": [
+      22.3233,
+      114.2154
+    ],
+    "country_code": "HK",
+    "regions": [
+      "觀塘區",
+      "Kwun Tong District"
+    ]
+  },
+  {
+    "latlng": [
+      22.38333,
+      114.26667
+    ],
+    "country_code": "HK",
+    "regions": [
+      "西貢區",
+      "Sai Kung District"
     ]
   },
   {
@@ -298,7 +226,63 @@
     ],
     "country_code": "KR",
     "regions": [
-      "Korea", "Deokjin"
+      "Jeonju",
+      "Jeonju-si"
+    ]
+  },
+  {
+    "latlng": [
+      22.1634178,
+      113.5629425
+    ],
+    "country_code": "MO",
+    "regions": [
+      "氹仔",
+      "Taipa"
+    ]
+  },
+  {
+    "latlng": [
+      23.553118,
+      121.0211024
+    ],
+    "country_code": "TW",
+    "regions": [
+      "Nantou",
+      ""
+    ]
+  },
+  {
+    "latlng": [
+      40.712772,
+      -74.006058
+    ],
+    "country_code": "US",
+    "regions": [
+      "NY",
+      "New York"
+    ]
+  },
+  {
+    "latlng": [
+      37.809326,
+      -122.409981
+    ],
+    "country_code": "US",
+    "regions": [
+      "SF",
+      "San Francisco"
+    ]
+  },
+  {
+    "latlng": [
+      33.942791,
+      -118.410042
+    ],
+    "country_code": "US",
+    "regions": [
+      "LA",
+      "Los Angeles"
     ]
   }
 ]

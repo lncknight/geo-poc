@@ -1,6 +1,6 @@
 const { resolveByIp, resolveByGeo, providerName } = require('./index.js');
-const { testBasic } = require('../baseTest.js')
+const { testBasicIp, testBasic, testBasicGeo } = require('../baseTest.js')
 
-testBasic({
+testBasicGeo({
   resolveByIp, resolveByGeo, providerName
 })

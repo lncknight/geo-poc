@@ -16,7 +16,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "中西區"
+      "中西區",
+      "Central and Western District"
     ]
   },
   {
@@ -26,7 +27,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "東區"
+      "東區",
+      "Eastern District"
     ]
   },
   {
@@ -36,7 +38,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "南區"
+      "南區",
+      "Southern District"
     ]
   },
   {
@@ -46,7 +49,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "灣仔區"
+      "灣仔區",
+      "Wan Chai District"
     ]
   },
   {
@@ -56,7 +60,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "九龍城區"
+      "九龍城區",
+      "Kowloon City District"
     ]
   },
   {
@@ -66,7 +71,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "觀塘區"
+      "觀塘區",
+      "Kwun Tong District"
     ]
   },
   {
@@ -76,7 +82,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "深水埗區"
+      "深水埗區",
+      "Sham Shui Po District"
     ]
   },
   {
@@ -96,7 +103,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "油尖旺區"
+      "油尖旺區",
+      "Yau Tsim Mong District"
     ]
   },
   {
@@ -106,7 +114,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "離島區"
+      "離島區",
+      "Islands District"
     ]
   },
   {
@@ -116,7 +125,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "葵青區"
+      "葵青區",
+       "Kwai Chung"
     ]
   },
   {
@@ -126,7 +136,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "北區"
+      "北區",
+      "North District"
     ]
   },
   {
@@ -136,7 +147,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "西貢區"
+      "西貢區",
+      "Sai Kung District"
     ]
   },
   {
@@ -146,7 +158,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "沙田區"
+      "沙田區",
+      "Sha Tin District"
     ]
   },
   {
@@ -156,7 +169,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "大埔區"
+      "大埔區",
+      "Tai Po District"
     ]
   },
   {
@@ -166,7 +180,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "荃灣區"
+      "荃灣區",
+      "Tsuen Wan District"
     ]
   },
   {
@@ -176,7 +191,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "屯門區"
+      "屯門區",
+      "Tuen Mun District"
     ]
   },
   {
@@ -186,7 +202,8 @@
     ],
     "country_code": "HK",
     "regions": [
-      "元朗區"
+      "元朗區",
+      "Yuen Long District"
     ]
   },
   {
@@ -196,7 +213,7 @@
     ],
     "country_code": "TW",
     "regions": [
-      ""
+      "Taiwan"
     ]
   },
   {
@@ -206,7 +223,7 @@
     ],
     "country_code": "MO",
     "regions": [
-      ""
+
     ]
   },
   {
@@ -216,7 +233,9 @@
     ],
     "country_code": "US",
     "regions": [
-      "SF"
+      "SF", 
+      "San Francisco County",
+      "San Francisco"
     ]
   },
   {
@@ -226,7 +245,8 @@
     ],
     "country_code": "US",
     "regions": [
-      "NY"
+      "NY", "New York",
+      "New York County"
     ]
   },
   {
@@ -236,7 +256,8 @@
     ],
     "country_code": "US",
     "regions": [
-      "LA"
+      "LA", "Los Angeles",
+      "Los Angeles County"
     ]
   },
   {
@@ -246,7 +267,8 @@
     ],
     "country_code": "GB",
     "regions": [
-      "UK"
+      "UK",
+      "United Kingdom"
     ]
   },
   {
@@ -276,7 +298,7 @@
     ],
     "country_code": "KR",
     "regions": [
-      "Korea"
+      "Korea", "Deokjin"
     ]
   }
 ]

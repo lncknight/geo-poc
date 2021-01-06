@@ -1,18 +1,25 @@
+const providerName = 'locationiq'
+
 const axios = require('axios')
-const providerName = 'positionstack'
 const fs = require('fs');
-const { map, get, first, chain } = require('lodash');
+const { map, get, first, chain, toUpper } = require('lodash');
 
 var countries = require("i18n-iso-countries");
 
 const _parseResponse = async data => {
-  let country_code = countries.alpha3ToAlpha2(get(data, 'data.0.country_code'))
   return {
-    country_code,
+    country_code: toUpper(
+      get(data, 'address.country_code')
+    ),
     regions: chain([
-      'data.0.name',
-      'data.0.region',
-      'data.0.region_code',
+      'address.region',
+      'address.county',
+      'address.village',
+      'address.road',
+      'address.address29',
+      'address.hamlet',
+      'address.town',
+      'address.country',
     ])
       .map(key => {
         return get(data, key)
@@ -23,31 +30,17 @@ const _parseResponse = async data => {
 }
 
 module.exports.providerName = providerName
-module.exports.resolveByIp = async ip => {
-  let file = `./cache/result-${providerName}-${ip}.json`
-  if (!fs.existsSync(file)) {
-    let { data } = await axios.get(`http://api.positionstack.com/v1/reverse`, {
-      params: {
-        access_key: '7815906e36644cf3deff2dcb1981ee2d',
-        query: ip
-      }
-    })
-    fs.writeFileSync(file, JSON.stringify(data))
-  }
-
-  let content = fs.readFileSync(file).toString()
-  let data = JSON.parse(content)
-
-  return _parseResponse(data)
-}
+module.exports.resolveByIp = false
 
 module.exports.resolveByGeo = async ({lat, lng}) => {
   let file = `./cache/result-${providerName}-${lat},${lng}.json`
   if (!fs.existsSync(file)) {
-    let { data } = await axios.get(`http://api.positionstack.com/v1/reverse`, {
+    let { data } = await axios.get(`https://us1.locationiq.com/v1/reverse.php`, {
       params: {
-        access_key: '7815906e36644cf3deff2dcb1981ee2d',
-        query: `${lat},${lng}`
+        key: 'pk.d97d86e95ffe6511f4bf3ed72c6be962',
+        format: 'json',
+        lat,
+        lon: lng,
       }
     })
     fs.writeFileSync(file, JSON.stringify(data, null, 2))

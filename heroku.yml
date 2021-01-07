@@ -3,7 +3,7 @@ build:
     web: Dockerfile
     # web: nginx/Dockerfile
 run:
-  web: http-server reports -p 80 -a
+  web: http-server reports -p $PORT -a
   # web: node index.js
   # nginx: nginx
   # web: node config.js && nginx -g 'daemon off;'

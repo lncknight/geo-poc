@@ -1,0 +1,12 @@
+build:
+  docker:
+    web: Dockerfile
+    # web: nginx/Dockerfile
+run:
+  web: http-server reports -p 80 -a
+  # web: node index.js
+  # nginx: nginx
+  # web: node config.js && nginx -g 'daemon off;'
+  # web: http-server . -p $PORT
+  # nginx: envsubst < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'
+

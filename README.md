@@ -12,17 +12,10 @@ https://docs.google.com/spreadsheets/d/1Ayx4MgviTMX6W6zMlPxSXq9JCL5Bh0MYyGtSIWkk
 
 # Test provider
 ```
-bash providers/PROVIDER/IP_OR_GEO.sh
+jest ip2location/ip
+jest geocode.xyz/geo
 ```
 
-- test by ip address
-```
-export IP_ADDRESS=$(curl -s ip.me)
-bash providers/positionstack/ip.sh
-```
-
-- test by latlng
-```
-export GEO=22.2843703,114.2670032
-bash providers/positionstack/geo.sh
-```
+# Report
+`yarn report` generated reports
+Archived report: `https://lncknight-geo-poc.herokuapp.com`
